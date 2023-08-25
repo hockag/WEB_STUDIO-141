@@ -1,0 +1,51 @@
+.business {
+    background: url("../img/business.png") no-repeat ;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin: 80px 0 0 0;
+}
+
+.overlay {
+    background: rgba(47, 48, 58, 0.40);
+    height: 600px;
+    width: 100%;
+}
+
+.business_title {
+    padding-top: 200px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.business_btn {
+    display: flex;
+    margin: 30px auto;
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.business button {
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    padding: 0;
+    border: none;
+}
