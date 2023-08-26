@@ -49,7 +49,6 @@
 
 .header_item a {
     display: inline-flex;
-    padding: 30px;
     color: #212121;
     font-size: 14px;
     font-style: normal;
@@ -58,6 +57,7 @@
     letter-spacing: 0.28px;
     font-family: 'Roboto', sans-serif;
     transition: 0.2s;
+    position: relative;
 }
 
 .header_right a {
@@ -70,6 +70,8 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+    transition: 0.2s;
+    align-items: center;
 }
 
 .header_right i {
@@ -89,3 +91,28 @@
     color: #2196F3;
 }
 
+.header_item a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -32px;
+    background-color: #2196F3;
+    border-radius: 2px;
+    transform: scaleX(0);
+    transition: 0.2s;
+}
+
+.header_item a:hover::before {
+    width: 100%;
+    transform: scaleX(1);
+}
+
+.header_item {
+    padding: 30px;
+}
+
+.header_right a:hover {
+    color: #2196F3;
+}

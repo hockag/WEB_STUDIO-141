@@ -1,0 +1,49 @@
+.work h2 {
+    color: #212121;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin: 120px 0 0 0;
+}
+
+.work_list {
+    margin: 0;
+    padding: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.work_item {
+    position: relative;
+    transition: 0.5s;
+}
+
+.work_item-title {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.80);
+}
+
+.work_item-title h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.work_item:hover {
+    transform: translate(10px,-20px);
+}
