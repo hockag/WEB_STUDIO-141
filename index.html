@@ -46,7 +46,36 @@
                 <div class="overlay">
                     <div class="container">
                         <h1 class="business_title">Ефективні рішення для <br> вашого бізнесу</h1>
-                        <button class="business_btn">Замовити послугу</button>
+                        <button class="business_btn" data-open-modal >Замовити послугу</button>
+                        <div class="backdrop_modal is-hidden_modal" data-modal>
+                            <div class="modal">
+                                <h3 class="modal_title">Залиште свої дані, ми вам передзвонимо</h3>
+                                <form class="modal_form">
+                                    <h5>Ім'я</h5>
+                                    <input type="text" name="name">
+                                    <h5>Телефон</h5>
+                                    <input type="text" name="phone" >
+                                    <h5>Пошта</h5>
+                                    <input type="text" name="mail" >
+                                    <h5>Коментар</h5>
+                                    <textarea class="modal_area" name="message"></textarea>
+                                </form>
+                                <div class="check_box">
+                                    <div class="check_box-wrapper">
+                                    <input type="checkbox" name="text">
+                                        <h4>Погоджуюся з розсилкою та приймаю
+                                            <span>
+                                                <a href="#">Умови договору</a>
+                                            </span>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <button class="modal_button">Відправити</button>
+                                <button class="btn_modal btn_close_modal" data-close-modal>
+                                    <span> &times </span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -142,12 +171,7 @@
                         </ul>
                 </div>
             </section>
-                <button class="btn_modal btn_open_modal" data-open-modal>Зателефонувати</button>
-                <div class="backdrop_modal is-hidden_modal" data-modal>
-                    <div class="modal">
-                        <button class="btn_modal btn_close_modal" data-close-modal>Закрити</button>
-                    </div>
-                </div>
+
         </main>
 
         <script src="./src/js/modal.js"></script>

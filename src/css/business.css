@@ -35,9 +35,11 @@
     background: #2196F3;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
+    transition: 0.25s;
 }
 
-.business button {
+.business_btn {
+    display: flex;
     color: #FFF;
     justify-content: center;
     align-items: center;
