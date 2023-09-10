@@ -1,0 +1,52 @@
+.customer {
+    background: #FFF;
+}
+
+.customer h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    padding-top: 188px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.customer_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 94px 0;
+    margin: 0;
+}
+
+.customer_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer_list svg {
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.customer_list a {
+    display: block;
+    position: relative;
+    box-sizing:border-box;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.customer_list a:hover, .customer_list a:hover svg path{
+    border-color:#2196F3;
+    fill: #2196F3;
+}
